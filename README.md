@@ -2,11 +2,11 @@
 
 **Explore by sound. Reveal the dark. Escape the maze.**
 
-Sonar Bounce is a single-player VR maze exploration game built with Unity for CIS5680. Players navigate a procedurally generated, dark maze by throwing sonar balls that briefly reveal their surroundings. Find a route to the exit, evade pursuing enemies, and collect gold to improve your equipment between runs.
+Sonar Bounce is a single-player VR maze exploration game built with Unity. Players navigate a procedurally generated, dark maze by throwing sonar balls that briefly reveal their surroundings. Find a route to the exit, evade pursuing enemies, and collect gold to improve your equipment between runs.
 
-This repository contains the Unity project, C# gameplay systems, shaders, scenes, assets, and the recorded gameplay demo.
+This repository contains the Unity project, C# gameplay systems, shaders, scenes, assets, and a recorded gameplay demo.
 
-**Developer:** [LetTucee-T](https://github.com/LetTucee-T) · **Course:** CIS5680 · **Demo headset:** Meta Quest 3
+**Demo headset:** Meta Quest 3
 
 ## Gameplay demo
 
@@ -56,8 +56,6 @@ The tutorial uses **Meta Touch-style button labels**. Equivalent controls on oth
 | Use a health refill station | Point at the station and press Grip |
 | Use an energy refill pad | Step onto the pad |
 
-The tutorial unlocks mechanics in stages. For editor debugging, the movement toggle also supports **M**, and pause supports **Esc**.
-
 ## Technical highlights
 
 | System | Implementation |
@@ -68,6 +66,8 @@ The tutorial unlocks mechanics in stages. For editor debugging, the movement tog
 | **VR interaction and locomotion** | XR Interaction Toolkit grabbing, waist holsters, joystick and arm-swing movement, and a teleport launcher with trajectory preview and confirmation. See [Balls](Assets/Scripts/Balls) and [Locomotion](Assets/Scripts/Locomotion). |
 | **Persistent progression** | Gold settlement on escape, randomized shop offers, persistent purchases, and queued next-run effects backed by a JSON profile. See [Progression](Assets/Scripts/Progression). |
 | **Onboarding and feedback** | A staged tutorial, controller-mounted gauges, spatial audio cues, chase music, locator effects, and VR menus. See [TutorialLevelController](Assets/Scripts/Gameplay/TutorialLevelController.cs) and [UI](Assets/Scripts/UI). |
+
+Note that the game is created with the help of AI agents, mainly with Codex, including the art assets like 3D models, music, etc.
 
 ## Open the project
 
@@ -123,12 +123,4 @@ docs/media/                README gameplay preview
 DEMO_Video.mp4              Full gameplay recording
 ```
 
-`Assets/Scenes/Tests/Maze1.unity` and the enemy prototype scenes are development scenes; the normal game loop uses the scenes in `Assets/Scenes/Gameplay`.
-
-Unity-generated caches, build output, IDE files, local notes, and local development tooling are excluded through `.gitignore`. The assets and their Unity `.meta` files are retained so that scene and prefab references survive cloning.
-
-## Credits
-
-The game code and simple custom art assets were independently implemented by **[LetTucee-T](https://github.com/LetTucee-T)** for CIS5680, with extensive **AI-agent assistance** during development. The gameplay demo was recorded using a **Meta Quest 3**.
-
-This portfolio repository preserves the Git history of the [original course repository](https://github.com/TianhongZhou/CIS5680-VR-Game). The project uses Unity's VR Template, XR Interaction Toolkit samples, TextMesh Pro, and bundled third-party art assets alongside the custom game code and art.
+Note that `Assets/Scenes/Tests/Maze1.unity` and the enemy prototype scenes are development scenes; the normal game loop uses the scenes in `Assets/Scenes/Gameplay`.
