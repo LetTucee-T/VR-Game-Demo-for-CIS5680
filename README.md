@@ -10,11 +10,11 @@ This repository contains the Unity project, C# gameplay systems, shaders, scenes
 
 ## Gameplay demo
 
-[![Sonar pulses reveal the maze in Sonar Bounce](docs/media/gameplay-preview.gif)](DEMO_Video.mp4)
+[![Sonar pulses reveal the maze in Sonar Bounce](docs/media/gameplay-preview.gif)](https://github.com/LetTucee-T/VR-Game-Demo-for-CIS5680/raw/refs/heads/main/DEMO_Video.mp4)
 
-**[Watch the full demo — 1 min 16 sec, MP4](DEMO_Video.mp4)** · [Download the original video](https://github.com/LetTucee-T/VR-Game-Demo-for-CIS5680/raw/refs/heads/main/DEMO_Video.mp4)
+**[Download the full demo — 1 min 16 sec, MP4](https://github.com/LetTucee-T/VR-Game-Demo-for-CIS5680/raw/refs/heads/main/DEMO_Video.mp4)** · [Video file in this repository](DEMO_Video.mp4)
 
-The preview above is an excerpt from the included recording. The full video shows sonar exploration, teleportation, enemy encounters, the shop, and the exit.
+The animated preview plays directly in this README. Download the full MP4 to watch the complete recording with audio, including sonar exploration, teleportation, enemy encounters, the shop, and the exit.
 
 ## How to play
 
