@@ -102,3 +102,6 @@ Design Doc/
 
 # Local-only Unity MCP package
 /Packages/com.coplaydev.unity-mcp/
+
+# Local tooling and documentation preparation
+/.local/
